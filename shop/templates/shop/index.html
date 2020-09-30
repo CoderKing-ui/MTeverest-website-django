@@ -80,6 +80,12 @@
 {% endblock css %}
 {% block body %}
 {% load static %}
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+    <p>Welcome to MT everest if you have any doubt then contact us at <a href = "/contact/">Here</a>.</p>
+  <hr>
+</div>
 <div class="container">
 
     {% for product , range, nslide in allProds  %}
